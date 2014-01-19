@@ -35,7 +35,7 @@ body {
 }
 
 .box1 {
-	background-color:#306;
+	background-color:#FFF;
 	float:left;
 	
 }
@@ -62,13 +62,16 @@ body {
 
 .logo {
 	width:50%;
-	height:50%;
+	height:85%;
 	
 	}
 	
 .collection {
+	padding-bottom:1%;
+	font-family:Muli;
+	font-weight:300;
 	background-color:#FFF;
 	width:100%;
-	height:50%;
-	
-}
+	height:auto%;
+	border-bottom:0.2em solid #000;
+	}
