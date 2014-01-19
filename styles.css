@@ -29,6 +29,46 @@ body {
 }
 
 .navibox {
-	width:20%;
+	width:23.5%;
+	height:100%;
+	
+}
+
+.box1 {
+	background-color:#306;
+	float:left;
+	
+}
+
+.box2 {
+	background-color: #0F3;
+	float: right;	
+}
+
+.marginright {
+	margin-right:2%;
+
+}
+
+.floatleft {
+	float:left;
+	
+}
+
+.floatright {
+	float:right;
+	
+}
+
+.logo {
+	width:50%;
+	height:50%;
+	
+	}
+	
+.collection {
+	background-color:#FFF;
+	width:100%;
+	height:50%;
 	
 }
