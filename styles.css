@@ -3,9 +3,11 @@
 
 html {
 	height:100%;
-	
-	
 	}
+
+.break {
+	clear:both;
+}
 
 body {
 	width:100%;
@@ -71,14 +73,28 @@ body {
 	float:right;
 	}
 
-.logo {
+.header {
 	height:120px;
 	background-color:#FFF;
+}
+
+.logo {
+	width:50%;
 }
 
 .logo img {
 	height:120px;
 	}
+	
+.headnavi {
+	margin:0;
+	height:30px;
+	width:50%;
+}
+
+.headnavi p {
+	margin:0;
+}
 	
 .content {
 	margin-top:2%;
