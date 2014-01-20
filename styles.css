@@ -57,15 +57,14 @@ body {
 
 .floatright {
 	float:right;
-	
-}
-
-.logo {
-	height:22%;
 	}
 
+.logo {
+	height:120px;
+}
+
 .logo img {
-	width:8%;
+	height:120px;
 	}
 
 .collection {
