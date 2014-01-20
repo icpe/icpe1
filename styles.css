@@ -29,9 +29,7 @@ body {
 }
 
 .navibox {
-	width:23.5%;
-	height:100%;
-	
+	width:23.5%;	
 }
 
 .box1 {
@@ -57,15 +55,30 @@ body {
 
 .floatright {
 	float:right;
-	
-}
+	}
 
 .logo {
-	height:22%;
+<<<<<<< HEAD
+<<<<<<< HEAD
+	height:11.5%;
 	}
 
 .logo img {
-	width:8%;
+	width:7.2%;
+=======
+	height:120px;
+}
+
+.logo img {
+	height:120px;
+>>>>>>> 52d51801114a85e8c72d45268771198670236f01
+=======
+	height:120px;
+}
+
+.logo img {
+	height:120px;
+>>>>>>> 4869bbdc3066950d96063c4cc36770b4ab30f786
 	}
 
 .collection {
