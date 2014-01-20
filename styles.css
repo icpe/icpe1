@@ -32,11 +32,13 @@ body {
 }
 
 .box1 {
+	height:20px;
 	padding-bottom:0.2%;
 	font-family:Muli;
 	font-weight:300;
+	font-size:0.75em;
 	background-color:#FFF;
-	border-bottom:0.2em solid #000;
+	border-bottom:3px solid #000;
 	padding-top:2%;
 	background-color:#FFF;
 	float:left;
@@ -44,11 +46,13 @@ body {
 }
 
 .box2 {
+	height:20px;
 	padding-bottom:0.2%;
 	font-family:Muli;
 	font-weight:300;
+	font-size:0.75em;
 	background-color:#FFF;
-	border-bottom:0.2em solid #000;
+	border-bottom:3px solid #000;
 	padding-top:2%;
 	float: right;	
 }
