@@ -33,12 +33,14 @@ body {
 }
 
 .box1 {
+	padding-top:2%;
 	background-color:#FFF;
 	float:left;
 	
 }
 
 .box2 {
+	padding-top:2%;
 	background-color: #0F3;
 	float: right;	
 }
