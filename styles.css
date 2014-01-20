@@ -14,8 +14,8 @@ body {
 	
 }
 .navigation {
-	background-color:#666;
-	height:20%;
+	background-color:#FFF;
+	height:8.5%;
 	
 }
 
@@ -33,6 +33,11 @@ body {
 }
 
 .box1 {
+	padding-bottom:0.2%;
+	font-family:Muli;
+	font-weight:300;
+	background-color:#FFF;
+	border-bottom:0.2em solid #000;
 	padding-top:2%;
 	background-color:#FFF;
 	float:left;
@@ -40,8 +45,12 @@ body {
 }
 
 .box2 {
+	padding-bottom:0.2%;
+	font-family:Muli;
+	font-weight:300;
+	background-color:#FFF;
+	border-bottom:0.2em solid #000;
 	padding-top:2%;
-	background-color: #0F3;
 	float: right;	
 }
 
@@ -61,19 +70,11 @@ body {
 
 .logo {
 	height:120px;
+	background-color:#FFF;
 }
 
 .logo img {
 	height:120px;
-	}
-
-.collection {
-	padding-bottom:1%;
-	font-family:Muli;
-	font-weight:300;
-	background-color:#FFF;
-	width:100%;
-	border-bottom:0.2em solid #000;
 	}
 	
 .content {
