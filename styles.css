@@ -111,6 +111,9 @@ body {
 	background-color: #cca7a6;
 	}
 	
+.kachelselected {
+	background-color:#000;}
+	
 .kachel1 {
 	width:49%;
 	height:32%;
@@ -118,6 +121,10 @@ body {
 	margin-right:2%;
 	margin-bottom:2%;
 }
+
+.kachel1:hover {
+	background-color:#3C6;
+	}
 
 .kachel2 {
 	width:23.5%;
