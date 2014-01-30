@@ -108,23 +108,32 @@ body {
 }
 
 .kachelcolor {
-	background-color: #cca7a6;
+	background-color: #D6D5D6;
 	}
 	
 .kachelselected {
-	background-color:#000;}
+	box-shadow:inset 2px 2px 15px 5px #cc3366;
+	}
 	
 .kachel1 {
-	width:49%;
-	height:32%;
-	float:left;
-	margin-right:2%;
-	margin-bottom:2%;
+	width: 49%;
+	height: 32%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	background-image: url(pictures/kachel1_metal.jpg);
+	background-size: 100%;
 }
 
 .kachel1:hover {
-	background-color:#3C6;
+	background-image: url(pictures/kachel1_metal_vor.jpg);
+	background-size: 100%;
 	}
+	
+.kachel2:hover {
+	opacity: 50%;
+background-color:#3C6;
+}
 
 .kachel2 {
 	width:23.5%;
@@ -132,6 +141,8 @@ body {
 	float:left;
 	margin-right:2%;
 	margin-bottom:2%;
+	background-image: url(pictures/kachel2_gold.jpg);
+	background-size: 100%;
 
 }
 
@@ -139,14 +150,18 @@ body {
 	float:right;
 	width:23.5%;
 	height:67%;
-	margin-bottom:2%;		
+	margin-bottom:2%;
+	background-image: url(pictures/kachel3_leder.jpg);
+	background-size: 100%;		
 	}
 
 .kachel4 {
 	width:23.5%;
-	height:65%;
+	height:67%;
 	margin-right:2%;
 	float:left;
+	background-image: url(pictures/kachel4_holz1.jpg);
+	background-size: 100%;
 	
 	}
 
@@ -156,6 +171,8 @@ body {
 	float:left;
 	margin-right:2%;
 	margin-bottom:2%;
+	background-image: url(pictures/kachel5_plastik.jpg);
+	background-size: 100%;
 	}
 	
 .kachel6 {
@@ -163,6 +180,8 @@ body {
 	height:32%;
 	float:left;
 	margin-right:2%;
+	background-image: url(pictures/kachel6_blech.jpg);
+	background-size: 100%;
 	}
 	
 .kachel7 {
@@ -170,10 +189,16 @@ body {
 	height:32%;
 	float:left;
 	margin-right:2%;
+	background-image: url(pictures/kachel7_metal2.jpg);
+	background-size: 100%;
 	}
 	
 .kachel8 { 
 	width:23.5%;
 	height:32%;
 	float:right;
+	background-image: url(pictures/kachel8_holz2.jpg);
+	background-size: 100%;
 	}
+	
+
