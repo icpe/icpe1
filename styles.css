@@ -18,7 +18,21 @@ body {
 .navigation {
 	background-color:#FFF;
 	height:47px;
-	
+}
+
+.navigation, .navigation ul {
+	padding:0;
+	text-decoration:none;
+}
+
+.navigation li {
+	padding:0;
+	text-decoration:none;
+}
+
+.navigation ul li {
+	text-decoration:none;
+	display:none;
 }
 
 .grund1 {
