@@ -30,7 +30,7 @@ body {
 }
 
 .navibox {
-	width:23.5%;	
+	width: 23.5%;
 }
 
 .box1 {
@@ -89,6 +89,7 @@ body {
 .headnavi {
 	margin:0;
 	width:23.5%;
+	vertical-align:
 	vertical-align:bottom;
 }
 
@@ -101,6 +102,7 @@ body {
 	
 .content {
 	margin-top:2%;
+	margin-bottom:3%;
 	background-color:#FFF;
 	width:100%;
 	height:80%;
@@ -112,8 +114,25 @@ body {
 	}
 	
 .kachelselected {
+	background-image: url(pictures/kachel1_metal_vor.jpg);
 	box-shadow:inset 2px 2px 15px 5px #cc3366;
 	}
+	
+	
+.kacheltext1 {
+	display:none;
+	width: 49%;
+	height: 32%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	background-image: url(pictures/kachel1_metal_vor.jpg);
+	background-size: 100%;
+	}	
+	
+	
+span {
+	display:none;}	
 	
 .kachel1 {
 	width: 49%;
@@ -124,16 +143,14 @@ body {
 	background-image: url(pictures/kachel1_metal.jpg);
 	background-size: 100%;
 }
-
+	
 .kachel1:hover {
 	background-image: url(pictures/kachel1_metal_vor.jpg);
-	background-size: 100%;
-	}
-	
-.kachel2:hover {
-	opacity: 50%;
-background-color:#3C6;
 }
+
+.kachel:hover span {
+	display:block;
+	}
 
 .kachel2 {
 	width:23.5%;
@@ -201,4 +218,22 @@ background-color:#3C6;
 	background-size: 100%;
 	}
 	
+.naviende {
+	height: 5%;
+	width:100%;
+	}
 
+.box3 {
+	height: 5%;
+	font-family: Muli;
+	font-weight: 300;
+	font-size: 0.65em;
+	background-color: #FFF;
+	/*
+	border-top:3px solid #000;
+	*/
+	padding-top: 1%;
+	background-color: #FFF;
+	float: right;
+	text-align: center;
+	}
