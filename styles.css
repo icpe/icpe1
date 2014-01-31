@@ -16,6 +16,7 @@ body {
 	
 }
 .navigation {
+	list-style-type:none;
 	background-color:#FFF;
 	height:47px;
 }
@@ -30,8 +31,11 @@ body {
 	text-decoration:none;
 }
 
-.navigation ul li {
-	text-decoration:none;
+.navigation li:hover ul {
+	display:block;
+}
+
+.subnav {
 	display:none;
 }
 
