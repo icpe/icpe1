@@ -37,6 +37,7 @@ body {
 
 .subnav {
 	display:none;
+	list-style-type:none;
 }
 
 .grund1 {
