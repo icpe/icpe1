@@ -302,4 +302,73 @@ span {
 	text-decoration: underline;
 	}
 	
+.philosophy {
+	margin-top:2%;
+	margin-bottom:3%;
+	background-color:#FFF;
+	width:100%;
+	height:80%;
+	}
+	
+.einleitung {
+	width: 100%;
+	height: 67%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	font-family: Muli;
+	font-weight: 300;
+	font-size: 1em;
+	background-image: url(pictures/philosophy.jpg);
+	background-size:100%;
+	}
+	
+.text {
+	width: 49%;
+	float: left;
+	
+	}
+	
+.einleitungsbild {
+	width:49%;
+	height:67%;
+	background-color:#C03;
+	margin-bottom: 2%;
+	}
+	
+.material1 {
+	width:100%;
+	height:67%;
+	margin-bottom:2%;
+	background-image:url(pictures/holzphilo.jpg);
+	background-size:100%;
+	}
 
+.philoheadline {
+	font-size:2em;
+	font-variant:small-caps;
+	}
+
+.textmaterial {
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:2em;
+	font-family: Muli;
+	font-weight: 300;
+	font-size: 1em;
+	height:85%;
+	width:80%;
+	}
+	
+.materialheadline {
+	margin-left:5%;
+	margin-right:5%;
+	/*margin-top:1em;*/
+	font-family: Muli;
+	font-size: 3em;
+	font-variant: small-caps;
+	font-weight: 600;
+	text-align: center;
+	border-bottom:0.1em solid #000;
+	height:15%;
+	width:90%;
+	}
