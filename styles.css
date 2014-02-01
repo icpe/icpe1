@@ -14,12 +14,22 @@ body {
 	height:100%;
 	margin:0;
 	
+
+	
 }
 .navigation {
 	list-style-type:none;
 	background-color:#FFF;
 	height:47px;
+	text-decoration: none;
+	padding:0;
+	margin:0;
 }
+
+a {
+	text-decoration:none;
+	color:#000;
+	}
 
 .navigation, .navigation ul {
 	padding:0;
@@ -27,6 +37,7 @@ body {
 }
 
 .navigation li {
+	display:inline;
 	padding:0;
 	text-decoration:none;
 }
@@ -36,9 +47,13 @@ body {
 }
 
 .subnav {
+	list-style-type:none;
+	margin-right:2em;
 	display: none;
 	list-style-type: none;
-	margin: 1em;
+	margin-top: 2em;
+	padding:0;
+	text-decoration:none;
 }
 
 .grund1 {
@@ -113,7 +128,6 @@ body {
 .headnavi {
 	margin:0;
 	width:23.5%;
-	vertical-align:
 	vertical-align:bottom;
 }
 
@@ -349,14 +363,19 @@ span {
 	}
 
 .textmaterial {
-	margin-left:5%;
-	margin-right:5%;
-	margin-top:2em;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
 	font-family: Muli;
 	font-weight: 300;
 	font-size: 1em;
-	height:85%;
-	width:80%;
+	height: 53%;
+	width: 80%;
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+	column-gap:2%;
+	column-width:50%;
 	}
 	
 .materialheadline {
@@ -372,3 +391,18 @@ span {
 	height:15%;
 	width:90%;
 	}
+	
+.weitere {
+	width: 100%;
+	height: 25%;
+	background-color: #930;
+	}
+	
+.lookbook {
+	.philosophy {
+	margin-top:2%;
+	margin-bottom:3%;
+	background-color:#FFF;
+	width:100%;
+	height:80%;
+	}}
