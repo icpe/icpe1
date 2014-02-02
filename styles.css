@@ -410,21 +410,27 @@ span {
 #grund2 {
 	height: 80%;
 	width: 100%;
-	background-color:#96C;
 	margin-left:auto;
 	margin-right:auto;
 	display:none;
 	}
 	
 .popup {
+<<<<<<< HEAD
 	margin-top:5%;
 	width:49%;
+=======
+	float:left;
+	margin-top:15%;
+	width:50%;
+>>>>>>> 6f1f5776b81e067c5fcc0cdcf439a9d17966a925
 	height:32%;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:25%;
+	margin-right:25%;
 	background-color:#C06;
 	}
 	
+<<<<<<< HEAD
 /*hier beginnt slideshow css*/
 
 .rslides {
@@ -458,3 +464,13 @@ span {
   width: 100%;
   border: 0;
   }
+=======
+.popup p {
+	width:50%;
+	margin-left:25%;
+	margin-top:10%;
+	color:#FFF;
+	text-align:center;
+	font-family:Muli;
+}
+>>>>>>> 6f1f5776b81e067c5fcc0cdcf439a9d17966a925
