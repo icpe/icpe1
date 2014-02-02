@@ -412,15 +412,15 @@ span {
 	background-color:#96C;
 	margin-left:auto;
 	margin-right:auto;
-	
 	display:none;
 	}
 	
 .popup {
-	margin-top:34%;
-	width:49%;
+	float:left;
+	margin-top:15%;
+	width:50%;
 	height:32%;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:25%;
+	margin-right:25%;
 	background-color:#C06;
 	}
