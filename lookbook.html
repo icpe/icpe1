@@ -7,6 +7,9 @@
 <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic' rel='stylesheet' type='text/css'>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="responsiveslides.min.js"></script>
+
 
 
 
@@ -14,6 +17,43 @@
 </head>
 
 <body>
+
+<!--
+script für slideshow
+-->
+<script>
+  $(function() {
+    $(".rslides").responsiveSlides({
+	
+	
+  auto: false,             // Boolean: Animate automatically, true or false
+  speed: 500,            // Integer: Speed of the transition, in milliseconds
+  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+  pager: true,           // Boolean: Show pager, true or false
+  nav: false,             // Boolean: Show navigation, true or false
+  random: false,          // Boolean: Randomize the order of the slides, true or false
+  pause: false,           // Boolean: Pause on hover, true or false
+  pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+  prevText: "Previous",   // String: Text for the "previous" button
+  nextText: "Next",       // String: Text for the "next" button
+  maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+  manualControls: "",     // Selector: Declare custom pager navigation
+  namespace: "rslides",   // String: Change the default namespace used
+  before: function(){},   // Function: Before callback
+  after: function(){}     // Function: After callback
+	
+  });
+  
+  });
+  
+  
+  
+</script>
+
+<!--
+script für slideshow ENDE
+-->
 
 <script type="text/javascript" />
 	jQuery(document).ready(function() {
@@ -33,12 +73,12 @@
     	<div class="logo floatleft">
     		<a href="peony.html" target="_blank"><img src="logo_peony_navi_neu.png"></a>
         </div>
-           <div class="claim floatright">
+        <div class="claim floatright">
            			<div class="social">
-                        <div class="icon"><a href="http://www.pinterest.com/" target="_blank"><img src="pictures/pinterest.png" height="80%" width="80%"></a></div>
-                        <div class="icon"><a href="https://www.facebook.com/" target="_blank"><img src="pictures/facebook.png" height="80%" width="80%"></a></div>
-                        <div class="icon"><a href="https://twitter.com/" target="_blank"><img src="pictures/twitter.png" height="80%" width="80%"></a></div>
-                        <div class="icon"><a href="http://instagram.com/#" target="_blank"><img src="pictures/instagram.png" height="80%" width="80%"></a></div>
+                        <div class="icon"><a href="http://www.pinterest.com/" target="_blank"><img src="pictures/pinterest.svg" height="100%" width="100%"></a></div>
+                        <div class="icon"><a href="https://www.facebook.com/" target="_blank"><img src="pictures/facebook.svg" height="100%" width="100%"></a></div>
+                        <div class="icon"><a href="https://twitter.com/" target="_blank"><img src="pictures/twitter.svg" height="100%" width="100%"></a></div>
+                        <div class="icon"><a href="http://instagram.com/#" target="_blank"><img src="pictures/instagram.svg" height="100%" width="100%"></a></div>
                     </div>
              <div class="claimbild">
 		   			<img src="pictures/opposites_define_me.jpg" height="100%" width="100%"> 
@@ -66,7 +106,20 @@
     
     <div class="lookbook">
     
-    <img src="pictures/lookbook1.jpg" width="100%" height="100%" alt="peony"> </div>
+         <ul class="rslides">
+          <li><img src="lookbook2.jpg" alt=""></li>
+          <li><img src="lookbook2.jpg" alt=""></li>
+          <li><img src="lookbook2.jpg" alt=""></li>
+        </ul>
+        
+        <ul class="punkte">asdf</li>
+        	<li class="#">asdf</li>
+            <li class="#">asdf</li>
+            <li class="#">asdf</li>
+        </ul>
+        
+        <a class="" href="#">Previous</a>
+        <a class="" href="#">Forward</a>
     
     
    

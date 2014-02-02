@@ -54,6 +54,7 @@ a {
 	margin-top: 2em;
 	padding:0;
 	text-decoration:none;
+	position:absolute;
 }
 
 .grund1 {
@@ -412,15 +413,48 @@ span {
 	background-color:#96C;
 	margin-left:auto;
 	margin-right:auto;
-	
 	display:none;
 	}
 	
 .popup {
-	margin-top:34%;
+	margin-top:5%;
 	width:49%;
 	height:32%;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#C06;
 	}
+	
+/*hier beginnt slideshow css*/
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
