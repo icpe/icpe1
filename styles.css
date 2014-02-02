@@ -409,7 +409,6 @@ span {
 #grund2 {
 	height: 80%;
 	width: 100%;
-	background-color:#96C;
 	margin-left:auto;
 	margin-right:auto;
 	display:none;
@@ -424,3 +423,12 @@ span {
 	margin-right:25%;
 	background-color:#C06;
 	}
+	
+.popup p {
+	width:50%;
+	margin-left:25%;
+	margin-top:10%;
+	color:#FFF;
+	text-align:center;
+	font-family:Muli;
+}
