@@ -21,7 +21,13 @@
 			jQuery( ".content div" ).on("click", function() {
 				//alert('hust');
 				jQuery(this).toggleClass("kachelselected");
-				});
+				if(jQuery(".kachelselected").length>1){
+					jQuery(".content").fadeOut(100,function(){jQuery("#grund2").fadeIn(100);});
+					
+				}
+				return false;
+			});
+			
 	});
 
 </script>
@@ -35,10 +41,10 @@
         </div>
            <div class="claim floatright">
            			<div class="social">
-                        <div class="icon"><a href="http://www.pinterest.com/" target="_blank"><img src="pictures/pinterest.png" height="80%" width="80%"></a></div>
-                        <div class="icon"><a href="https://www.facebook.com/" target="_blank"><img src="pictures/facebook.png" height="80%" width="80%"></a></div>
-                        <div class="icon"><a href="https://twitter.com/" target="_blank"><img src="pictures/twitter.png" height="80%" width="80%"></a></div>
-                        <div class="icon"><a href="http://instagram.com/#" target="_blank"><img src="pictures/instagram.png" height="80%" width="80%"></a></div>
+                        <div class="icon"><a href="http://www.pinterest.com/" target="_blank"><img src="pictures/pinterest.svg" height="100%" width="100%"></a></div>
+                        <div class="icon"><a href="https://www.facebook.com/" target="_blank"><img src="pictures/facebook.svg" height="100%" width="100%"></a></div>
+                        <div class="icon"><a href="https://twitter.com/" target="_blank"><img src="pictures/twitter.svg" height="100%" width="100%"></a></div>
+                        <div class="icon"><a href="http://instagram.com/#" target="_blank"><img src="pictures/instagram.svg" height="100%" width="100%"></a></div>
                     </div>
              <div class="claimbild">
 		   			<img src="pictures/opposites_define_me.jpg" height="100%" width="100%"> 
@@ -127,10 +133,16 @@
                 </div>	
         </div>
         
-        
-        
-    
+            
     </div>
+    
+    <div id="grund2">
+    
+    	<div class="popup">Ihre Auswahl! Hier gehts zur Brille
+        </div>
+        
+    </div>
+
     
 	<div class="naviende">
         <div class="box3 navibox">HÄNDLERBEREICH FAQ KONTAKT IMPRESSUM</div>
