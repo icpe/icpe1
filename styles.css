@@ -48,14 +48,22 @@ a {
 
 .subnav {
 	list-style-type: none;
-	margin-right: 2em;
+	margin-right: 0.8em;
 	display: none;
 	list-style-type: none;
-	margin-top: 0.9em;
+	margin-top: 0.8em;
 	padding: 0;
 	text-decoration: none;
 	position: absolute;
 }
+
+.navibrille {
+	padding: 0;
+	margin-top: 0em;
+	margin-right: 0.7em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	}
 
 .grund1 {
 	height: 100%;
@@ -68,6 +76,18 @@ a {
 .navibox {
 	width: 23.5%;
 }
+
+.navibrillenbox {
+	background-color:#000;
+	color:#FFF;
+	width:25%;
+	height:50%;
+	padding: 0;
+	margin-top: 0em;
+	margin-right: 0.7em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	}
 
 .box1 {
 	height:20px;
@@ -385,6 +405,22 @@ span {
 	height:67%;
 	margin-bottom:2%;
 	background-image:url(pictures/holzphilo.jpg);
+	background-size:100%;
+	}
+	
+.material2 {
+	width:100%;
+	height:67%;
+	margin-bottom:2%;
+	background-image:url(pictures/blechphilo.jpg);
+	background-size:100%;
+	}	
+	
+.material3 {
+	width:100%;
+	height:67%;
+	margin-bottom:2%;
+	background-image:url(pictures/goldphilo.jpg);
 	background-size:100%;
 	}
 
