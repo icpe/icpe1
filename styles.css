@@ -153,6 +153,7 @@ a {
 	}
 	
 .kachelselected {
+	display:
 	background-image: url(pictures/kachel1_metal_vor.jpg);
 	box-shadow:inset 2px 2px 15px 5px #cc3366;
 	}
@@ -179,12 +180,13 @@ span {
 	float: left;
 	margin-right: 2%;
 	margin-bottom: 2%;
-	background-image: url(pictures/kachel1_metal.jpg);
-	background-size: 100%;
+	background-image: url(pictures/holz_web.jpg);
+	background-size: 100% auto;
+	margin-top:0%;
 }
 	
 .kachel1:hover {
-	background-image: url(pictures/kachel1_metal_vor.jpg);
+	background-image: url(pictures/holzhover_web.jpg);
 }
 
 .kachel:hover span {
@@ -192,70 +194,98 @@ span {
 	}
 
 .kachel2 {
-	width:23.5%;
-	height:32%;
-	float:left;
-	margin-right:2%;
-	margin-bottom:2%;
-	background-image: url(pictures/kachel2_gold.jpg);
+	width: 23.5%;
+	height: 32%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	background-image: url(pictures/gold2_web2.jpg);
 	background-size: 100%;
+}
 
+.kachel2:hover {
+	background-image: url(pictures/goldhover_web.jpg);
 }
 
 .kachel3 {
-	float:right;
-	width:23.5%;
-	height:67%;
-	margin-bottom:2%;
-	background-image: url(pictures/kachel3_leder.jpg);
-	background-size: 100%;		
+	float: right;
+	width: 23.5%;
+	height: 67%;
+	margin-bottom: 2%;
+	background-image: url(pictures/aluminium_web.jpg);
+	background-size: 100%;
 	}
+	
+.kachel3:hover {
+	background-image: url(pictures/aluminiumhover_web.jpg);
+}
+	
 
 .kachel4 {
 	width:23.5%;
 	height:67%;
 	margin-right:2%;
 	float:left;
-	background-image: url(pictures/kachel4_holz1.jpg);
+	background-image: url(pictures/plastik_web.jpg);
 	background-size: 100%;
 	
 	}
+	
+.kachel4:hover {
+	background-image: url(pictures/plastikhover_web.jpg);
+}
 
 .kachel5 {
-	width:49%;
-	height:32%;
-	float:left;
-	margin-right:2%;
-	margin-bottom:2%;
-	background-image: url(pictures/kachel5_plastik.jpg);
+	width: 49%;
+	height: 32%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	background-image: url(pictures/leder_web2.jpg);
 	background-size: 100%;
 	}
 	
+.kachel5:hover {
+	background-image: url(pictures/lederhover_web.jpg);
+}
+	
 .kachel6 {
-	width:23.5%;
-	height:32%;
-	float:left;
-	margin-right:2%;
-	background-image: url(pictures/kachel6_blech.jpg);
+	width: 23.5%;
+	height: 32%;
+	float: left;
+	margin-right: 2%;
+	background-image: url(pictures/metal_web2.jpg);
 	background-size: 100%;
 	}
+
+.kachel6:hover {
+	background-image: url(pictures/blechhover_web.jpg);
+}
 	
 .kachel7 {
 	width:23.5%;
 	height:32%;
 	float:left;
 	margin-right:2%;
-	background-image: url(pictures/kachel7_metal2.jpg);
+	background-image: url(pictures/silber_web.jpg);
 	background-size: 100%;
 	}
 	
-.kachel8 { 
-	width:23.5%;
-	height:32%;
-	float:right;
-	background-image: url(pictures/kachel8_holz2.jpg);
+.kachel7:hover {
+	background-image: url(pictures/silberhover_web.jpg);
+}
+	
+.kachel8 {
+	width: 23.5%;
+	height: 32%;
+	float: right;
+	background-image: url(pictures/bronze_web2.jpg);
 	background-size: 100%;
 	}
+	
+.kachel8:hover {
+	background-image: url(pictures/bronzehover_web.jpg);
+}
 	
 .naviende {
 	height: 5%;
