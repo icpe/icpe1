@@ -47,14 +47,14 @@ a {
 }
 
 .subnav {
-	list-style-type:none;
-	margin-right:2em;
+	list-style-type: none;
+	margin-right: 2em;
 	display: none;
 	list-style-type: none;
-	margin-top: 2em;
-	padding:0;
-	text-decoration:none;
-	position:absolute;
+	margin-top: 0.9em;
+	padding: 0;
+	text-decoration: none;
+	position: absolute;
 }
 
 .grund1 {
