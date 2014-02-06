@@ -153,9 +153,9 @@ a {
 	}
 	
 .kachelselected {
-	display:
 	background-image: url(pictures/kachel1_metal_vor.jpg);
 	box-shadow:inset 2px 2px 15px 5px #cc3366;
+	background-image:url(pictures/kachel1_metal_vor.jpg);
 	}
 	
 	
