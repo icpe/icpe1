@@ -21,6 +21,7 @@
 			jQuery( ".content div" ).on("click", function() {
 				//alert('hust');
 				jQuery(this).toggleClass("kachelselected");
+				jQuery(this).parent().parent().toggleClass("hover");
 				if(jQuery(".kachelselected").length>1){
 					jQuery(".content").fadeOut(100,function(){jQuery("#grund2").fadeIn(100);});
 					
@@ -85,8 +86,7 @@
     	<div class="kachel2 kachelcolor kachel ">
             <span>
             <div class="kachelschrift"><p class="kachelheadline">GOLD</p>
-              Das hier ist Metal, es steht für Kraft und bla bla und ist total toll, und der grundstein der Brille und verleiht dir stärke und du schaust damit schöner aus und eigentlich ist alles damit besser! <p><p>
-                wen du mehr über Metall herfahren willst klicke einfach <a href="philosophy.html" target="_top">hier!</a></span>
+              Das hier ist Metal, es steht für Kraft und bla bla und ist total toll, und der grundstein der Brille und verleiht dir stärke und du schaust damit schöner aus und eigentlich ist alles damit besser! <a href="philosophy.html" target="_top">hier!</a></span>
                 </div>	
         </div>
         

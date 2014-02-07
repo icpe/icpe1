@@ -170,12 +170,16 @@ a {
 
 .kachelcolor {
 	background-color: #D6D5D6;
+	background-position:center;
+	
 	}
 	
 .kachelselected {
-	background-image: url(pictures/kachel1_metal_vor.jpg);
-	box-shadow:inset 2px 2px 15px 5px #cc3366;
-	background-image:url(pictures/kachel1_metal_vor.jpg);
+	width:100%;
+	height:100%;
+	background-image:url(pictures/eckelinks.png), url(pictures/eckerechts.png);
+	background-position:left top, right bottom;
+	background-repeat:no-repeat;
 	}
 	
 	
@@ -205,8 +209,14 @@ span {
 	margin-top:0%;
 }
 	
-.kachel1:hover {
+.kachel1:hover, .hover {
+	background-size: 100% auto;
+	width: 49%;
+	height: 32%;
 	background-image: url(pictures/holzhover_web.jpg);
+}
+.hover span {
+	display:block;
 }
 
 .kachel:hover span {
