@@ -382,7 +382,7 @@ span {
 	margin-bottom:3%;
 	background-color:#FFF;
 	width:100%;
-	height:80%;
+	height:95%;
 	}
 	
 .einleitung {
@@ -433,7 +433,62 @@ span {
 	background-image:url(pictures/goldphilo.jpg);
 	background-size:100%;
 	}
+	
+.material4 {
+	/*BRONZ*/
+	width:100%;
+	height:67%;
+	margin-bottom:2%;
+	background-image:url(pictures/bronzehover_web.jpg);
+	background-size:100%;
+	}
+	
+.material5 {
+	/*SILBER*/
+	width:100%;
+	height:67%;
+	margin-bottom:2%;
+	background-image:url(pictures/silberhover_web.jpg);
+	background-size:100%;
+	}		
 
+.material6 {
+	/*LEDER*/
+	width:100%;
+	height:67%;
+	margin-bottom:2%;
+	background-image:url(pictures/lederphilo.jpg);
+	background-size:100%;
+	}
+	
+.material7 {
+	/*METAL*/
+	width:100%;
+	height:67%;
+	margin-bottom:2%;
+	background-image:url(pictures/kachel1_metal.jpg);
+	background-size:100%;
+	}
+	
+.material8 {
+	/*ACETAT*/
+	width:100%;
+	height:67%;
+	margin-bottom:2%;
+	background-image:url(pictures/kachel5_plastik.jpg);
+	background-size:100%;
+	}
+	
+.linkmaterial1 {
+	width:20%;
+	float:left;
+	height:20%;
+
+	background-color:#000;
+	margin-bottom:2%;
+	margin-left:5%;
+	}
+		
 .philoheadline {
 	font-size:2em;
 	font-variant:small-caps;
@@ -453,6 +508,7 @@ span {
 	column-count:3;
 	column-gap:2%;
 	column-width:50%;
+	margin-bottom:0%;
 	}
 	
 .materialheadline {
@@ -516,6 +572,12 @@ span {
 	margin-left:auto;
 	margin-right:auto;
 	display:none;
+	}
+	
+.inspiration {
+	width:100%;
+	height:80%;
+	background-color:#C66;
 	}
 	
 .popup {
