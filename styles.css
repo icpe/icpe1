@@ -367,7 +367,6 @@ span {
 	font-family: Muli;
 	font-weight: 300;
 	font-size: 0.85em;
-	color: #FFF;
 	padding: 1em;
 	}
 	
@@ -515,6 +514,33 @@ span {
 	color: #FFF;
 }
 
+.fontblack {
+	color:#000
+	}
+	
+.popbild {
+	width:100%;
+	height:70%;
+	background-color:#03C;
+	}
+	
+.poptext {
+	width:100%;
+	height:30%;
+	background-color:#C63;
+	}
+
+.plus {
+	font-family: Muli;
+	font-size: 5em;
+	font-variant: small-caps;
+	font-weight: 700;
+	text-align: center;
+	}
+	
+.nomargin {
+	margin:0;
+	}
 	
 .materialheadline {
 	margin-left:5%;
@@ -574,9 +600,14 @@ span {
 #grund2 {
 	height: 80%;
 	width: 100%;
-	margin-left:auto;
-	margin-right:auto;
-	display:none;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+	background-image: url(pictures/kachelselect.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #0C9;
+	position: relative;
 	}
 	
 .inspiration {
@@ -669,16 +700,18 @@ span {
 .popup {
 <<<<<<< HEAD
 	margin-top:5%;
-	width:49%;
+	width: 49%;
 =======
 	float:left;
-	margin-top:15%;
-	width:50%;
+	margin-top: 15%;
+	width: 50%;
 >>>>>>> 6f1f5776b81e067c5fcc0cdcf439a9d17966a925
 	height:32%;
-	margin-left:25%;
-	margin-right:25%;
-	background-color:#C06;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: #C06;
+	position: absolute;
+	height: 70%;
 	}
 	
 .inspiclaim {
