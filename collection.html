@@ -6,37 +6,14 @@
 <link href="styles.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic' rel='stylesheet' type='text/css'>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/jquery.cycle.lite.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="http://malsup.github.com/jquery.cycle2.js"></script>
 
-<script type="text/javascript">
-jQuery(document).ready(function() {
-		
-jQuery('.slidebox').cycle({ 
-    fx:     'fade', 
-    speed:   1000, 
-    timeout: 1000, 
-    next:   'slidebox', 
-    pause:   1 
-});
 
-$('.slidenavi') 
-.before('<div class="slidenavi">') 
-.cycle({ 
-    fx:     'turnDown', 
-    speed:  'fast', 
-    timeout: 0, 
-    pager:  '#nav' 
-});
-	
-});
-</script>
+
+
 
 </head>
 
 <body>
-
 
 <script type="text/javascript" />
 	jQuery(document).ready(function() {
@@ -72,8 +49,8 @@ $('.slidenavi')
 
 
 	<ul class="navigation">
-		<li class="box1 navibox marginright"><a href="collection.html">COLLECTION</a>
-        	<ul class="subnav">
+		<li class="box1 navibox marginright"><a href="#">COLLECTION</a>
+        	<ul class="subnav ">
             	<li class="navibrille"><a href="#" target="_blank"><img src="pictures/brille1.png" height="9%" width="9%"></a></li>
               	<li class="navibrille"><a href="#" target="_blank"><img src="pictures/brille1.png" height="9%" width="9%"></a></li>
                 <li class="navibrille"><a href="#" target="_blank"><img src="pictures/brille1.png" height="9%" width="9%"></a></li>
@@ -88,36 +65,42 @@ $('.slidenavi')
        <ul class="box2 navibox"><a href="inspiration.html">INSPIRATION</a></ul>    
     </ul>
     
-    <div class="lookbook">
+<div id="ca-container" class="ca-container">
+    <div class="ca-wrapper">
+        <div class="ca-item ca-item-1">
+            <div class="ca-item-main">
+                <div class="ca-icon"></div>
+                <h3>Stop factory farming</h3>
+                <h4>
+                    <span class="ca-quote">“</span>
+                    <span>Some text...</span>
+                </h4>
+                    <a href="#" class="ca-more">more...</a>
+            </div>
+            <div class="ca-content-wrapper">
+                <div class="ca-content">
+                    <h6>Animals are not commodities</h6>
+                    <a href="#" class="ca-close">close</a>
+                    <div class="ca-content-text">
+                        <p>Some more text...</p>
+                    </div>
+                    <ul>
+                        <li><a href="#">Read more</a></li>
+                        <li><a href="#">Share this</a></li>
+                        <li><a href="#">Become a member</a></li>
+                        <li><a href="#">Donate</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="ca-item ca-item-2">
+            ...
+        </div>
+        ...
+    </div><!-- ca-wrapper -->
+</div><!-- ca-container -->
     
-         <div class="cycle-slideshow"
-            data-cycle-fx="scrollHorz"
-            data-cycle-prev="#prev"
-    		data-cycle-next="#next"
-            data-cycle-pause-on-hover="true"
-            data-cycle-fx=fadeout
-    		data-cycle-timeout=2000
-    		>
-	<div class="cycle-pager"></div>
-    <img src="pictures/lookbook1_web.jpg">
-    <img src="pictures/lookbook2_web.jpg">
-    <img src="pictures/lookbook3_web.jpg">
-    <img src="pictures/lookbook4_web.jpg">
-    <img src="pictures/lookbook5_web.jpg">
-		</div>
-    </div>
-        
-
     
-	
-    <div class="lookvideo ">
-    
-<iframe src="https://player.vimeo.com/video/85867944?title=0&amp;byline=0&amp;portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        
-    </div>
-    
-        
-
    
     
 	<div class="naviende">

@@ -368,7 +368,7 @@ span {
 	font-weight: 300;
 	font-size: 0.85em;
 	color: #FFF;
-	padding:1em;
+	padding: 1em;
 	}
 	
 .kachelheadline {
@@ -511,6 +511,11 @@ span {
 	margin-bottom:0%;
 	}
 	
+.fontwhite {
+	color: #FFF;
+}
+
+	
 .materialheadline {
 	margin-left:5%;
 	margin-right:5%;
@@ -641,10 +646,12 @@ span {
 	}
 	
 .inspifrau {
-	background-image:url(pictures/inspifrau2.jpg);
-	height:100%;
-	width:100%;
-	background-repeat:no-repeat; }
+	background-image: url(pictures/inspifrau2.jpg);
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	margin: 0;
+}
 	
 .inspitext {
 	margin-top:2em;
