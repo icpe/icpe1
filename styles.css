@@ -852,8 +852,6 @@ span {
 .cycle-pager span.cycle-pager-active { color: #b43c71;}
 .cycle-pager > * { cursor: pointer;}
   
-
-=======
 .popup p {
 	width:50%;
 	margin-left:25%;
@@ -862,9 +860,31 @@ span {
 	text-align:center;
 	font-family:Muli;
 }
->>>>>>> 6f1f5776b81e067c5fcc0cdcf439a9d17966a925
 
+.anyClass {
+	margin-left:auto;
+	margin-right:auto;
+}
 
-.anyclass {
-	position:auto;
+.anyClass h6 {
+	font-family:Muli;
+	font-weight:900;
+	font-size:12px;
+}
+
+.anyClass p {
+	font-family:Muli;
+	font-weight:100;
+	font-size:12px;
+}
+
+.buttons {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.buttons button {
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
 }
