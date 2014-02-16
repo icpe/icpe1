@@ -10,13 +10,19 @@
 <link href="reset.css" rel="stylesheet" type="text/css">
 <link href="style.css" rel="stylesheet" type="text/css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="jquery.mousewheel.js"></script>
-<script type="text/javascript" src="jquery.contentcarousel.js"></script>
-<script type="text/javascript">
-			$('#ca-container').contentcarousel();
-		</script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jcarousellite.js"></script>
 
+<script type="text/javascript">
+$( document ).ready(function() {
+  // Handler for .ready() called.
+    $(".anyClass").jCarouselLite({
+        btnNext: ".next",
+        btnPrev: ".prev"
+    });
+    });
+		</script>
 
 
 
@@ -75,42 +81,18 @@
 	   <ul class="box1 navibox marginright"><a href="philosophy.html">PHILOSOPHIE</a></ul>
        <ul class="box2 navibox"><a href="inspiration.html">INSPIRATION</a></ul>    
     </ul>
-    
-<div id="ca-container" class="ca-container">
-    <div class="ca-wrapper">
-        <div class="ca-item ca-item-1">
-            <div class="ca-item-main">
-                <div class="ca-icon"></div>
-                <h3>Stop factory farming</h3>
-                <h4>
-                    <span class="ca-quote">“</span>
-                    <span>Some text...</span>
-                </h4>
-                    <a href="#" class="ca-more">more...</a>
-            </div>
-            <div class="ca-content-wrapper">
-                <div class="ca-content">
-                    <h6>Animals are not commodities</h6>
-                    <a href="#" class="ca-close">close</a>
-                    <div class="ca-content-text">
-                        <p>Some more text...</p>
-                    </div>
-                    <ul>
-                        <li><a href="#">Read more</a></li>
-                        <li><a href="#">Share this</a></li>
-                        <li><a href="#">Become a member</a></li>
-                        <li><a href="#">Donate</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="ca-item ca-item-2">
-            ...
-        </div>
-        ...
-    </div><!-- ca-wrapper -->
-</div><!-- ca-container -->
-    
+
+<button class="prev"><<</button>
+<button class="next">>></button>
+        
+<div class="anyClass">
+    <ul>
+        <li><img src="someimage" alt="" width="100" height="100" ></li>
+        <li><img src="someimage" alt="" width="100" height="100" ></li>
+        <li><img src="someimage" alt="" width="100" height="100" ></li>
+        <li><img src="someimage" alt="" width="100" height="100" ></li>
+    </ul>
+</div>
     
    
     
