@@ -7,25 +7,26 @@
 <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jcarousellite.js"></script>
 
-
-
+<script type="text/javascript">
+$( document ).ready(function() {
+  // Handler for .ready() called.
+    $(".anyClass").jCarouselLite({
+        btnNext: ".next",
+        btnPrev: ".prev"
+    });
+    });
+		</script>
 
 
 </head>
 
 <body>
 
-<script type="text/javascript" />
-	jQuery(document).ready(function() {
 
-			jQuery( ".content div" ).on("click", function() {
-				//alert('hust');
-				jQuery(this).toggleClass("kachelselected");
-				});
-	});
-
-</script>
 
 
 <div class="grund1">
@@ -74,17 +75,42 @@
         	<a class="philoheadline">BRILLE 1</a>
         
         	<div class="collbrille"><img src="pictures/collbrille1.jpg" width="100%" height="100%">
+        </div>
         
-        	<div class="text">
-            <a class="philoheadline">BRILLE 1</a>
-            <p>
-            Gegensätze ziehen sich an. das zählt. so sehen wir uns, gegensätze bedeutet das und das und das, man soll es leben, jeder hat es, frauen besonders. Mit Gegensätzen fühlen wir uns wohl. 
-            <p>
-            Wir dürfen unsere Gegensätze nicht verstecken, bla bla blab bla. 
-            Deswegen haben wir für euch die besten Materialien herrausgesucht um diese Gegensätze auf Brillenbasis zu zeige und haben sie angewendet und dabei sind sechs Modelle entstanden die alle eine Kombination sind aus verschiedenen experimentellen Materiallien. Deswegen haben wir für euch die besten Materialien herrausgesucht um diese Gegensätze auf Brillenbasis zu zeige und haben sie angewendet und dabei sind sechs Modelle entstanden die alle eine Kombination sind aus verschiedenen experimentellen Materiallien. Deswegen haben wir für euch die besten Materialien herrausgesucht um diese Gegensätze auf Brillenbasis zu zeige und haben sie angewendet und dabei sind sechs Modelle entstanden die alle eine Kombination sind aus verschiedenen experimentellen Materiallien. 
-            </div>
-            
-            </div>
+        	<div class="anyClass">
+    <ul>
+        <li>
+        	<img src="pictures/peony003detail.jpg" alt="" width="400" height="400px" >
+           <h6>TEST</h6>
+           <p>DIES IST EIN TEST IN VERSALIEN UND HIER</p>
+        </li>
+       
+        <li>
+			<img src="pictures/peony152detail.jpg" alt="" width="400" height="400px" >
+           <h6>TEST</h6>
+           <p>DIES IST EIN TEST IN VERSALIEN UND HIER</p>
+        </li>
+ 
+        <li>        	
+			<img src="pictures/peony153detail.jpg"  alt="" width="400" height="400px" >
+           <h6>TEST</h6>
+           <p>DIES IST EIN TEST IN VERSALIEN UND HIER</p>
+        </li>
+
+        <li>        	
+			<img src="pictures/peony149detail.jpg"  alt="" width="400" height="400px" >
+           <h6>TEST</h6>
+           <p>DIES IST EIN TEST IN VERSALIEN UND HIER</p>
+    </ul>
+</div>
+
+<div class="buttons">
+<button class="prev">prev</button>
+&nbsp;
+&nbsp;
+&nbsp;
+<button class="next">next</button>
+</div>
             
        </div>
     

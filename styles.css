@@ -784,10 +784,10 @@ span {
 	}
 	
 .brillecollection {
-	margin-top:2%;
-	margin-bottom:3%;
-	background-color:#C90;
-	width:100%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	/* [disabled]background-color:#C90; */
+	width: 100%;
 	100%
 	}
 	
@@ -799,13 +799,13 @@ span {
 	font-family: Muli;
 	font-weight: 300;
 	font-size: 1em;
-	background-color:#C63;
+	/* [disabled]background-color:#C63; */
 	}
 	
 .collbrille {
-	width:100%;
-	height:auto;
-	background-color:#F63;
+	width: 100%;
+	height: auto;
+	/* [disabled]background-color:#F63; */
 	}
 	
 <<<<<<< HEAD
@@ -870,11 +870,11 @@ span {
 }
 
 .anyClass {
-	width:100% !important;
-	margin-top:50px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-bottom:50px;
+	width: 100% !important;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
 }
 
 .anyClass ul {
@@ -910,3 +910,4 @@ span {
 	margin-right:auto;
 	padding:0;
 }
+
