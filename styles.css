@@ -862,8 +862,15 @@ span {
 }
 
 .anyClass {
+	width:100% !important;
+	margin-top:50px;
 	margin-left:auto;
 	margin-right:auto;
+	margin-bottom:50px;
+}
+
+.anyClass ul {
+	width:80%;
 }
 
 .anyClass h6 {
@@ -885,6 +892,12 @@ span {
 }
 
 .buttons button {
+	color:#FFF;
+	font-family:Muli;
+	border:0;
+	margin:30px;
+	padding:5px!important;
+	background-color:#c55269;
 	margin-left:auto;
 	margin-right:auto;
 	padding:0;
