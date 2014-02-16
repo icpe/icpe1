@@ -70,6 +70,7 @@ a {
 	width: 80%;
 	margin-left:auto;
 	margin-right:auto;
+	position:relative;
 	
 }
 
@@ -78,13 +79,13 @@ a {
 }
 
 .navibrillenbox {
-	background-color:#000;
-	color:#FFF;
-	width:25%;
-	height:50%;
+	background-color: #000;
+	color: #FFF;
+	width: 24%;
+	height: 50%;
 	padding: 0;
 	margin-top: 0em;
-	margin-right: 0.7em;
+	margin-right: 1.5em;
 	margin-bottom: 0em;
 	margin-left: 0em;
 	}
@@ -745,6 +746,37 @@ span {
 	height: 70%;
 	opacity:0.7;
 	}
+	
+.popup2 {
+	margin-top:5%;
+	width: 49%;
+	float:left;
+	margin-top: 15%;
+	width: 50%;
+	height:32%;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: #C36;
+	height: 30%;
+	opacity:0.9;
+	position:absolute;
+	text-align:center;
+	font-family:Muli;
+	font-weight:700;
+	font-size:2em;
+	}
+	
+.popup2text {
+	
+	margin-top: 10%;
+	margin-left: 7%;
+	margin-right: 7%;
+	position:absolute;
+	text-align:center;
+	font-family:Muli;
+	font-weight:700;
+	font-size:1em;
+	}}
 	
 .brillecollection {
 	margin-top:2%;
