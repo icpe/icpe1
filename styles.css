@@ -621,7 +621,7 @@ span {
 	background-image: url(pictures/kachelselect.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: #0C9;
+	/* [disabled]background-color: #0C9; */
 	position: relative;
 	}
 	
@@ -910,4 +910,3 @@ span {
 	margin-right:auto;
 	padding:0;
 }
-
