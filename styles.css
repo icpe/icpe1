@@ -881,6 +881,10 @@ span {
 	width:80%;
 }
 
+.anyClass ul li {
+	margin-right:30px;
+}
+
 .anyClass h6 {
 	font-family:Muli;
 	font-weight:900;
