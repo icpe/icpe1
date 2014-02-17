@@ -885,6 +885,11 @@ span {
 	margin-right:30px;
 }
 
+.brille img {
+	border:solid 1px #000;
+}
+
+
 .anyClass h6 {
 	font-family:Muli;
 	font-weight:900;
